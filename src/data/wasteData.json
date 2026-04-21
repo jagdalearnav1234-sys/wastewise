@@ -1,104 +1,22 @@
 [
   {
-    "category": "Plastic",
-    "examples": ["plastic bottle", "food container", "plastic bag", "shampoo bottle"],
-    "decomposition_time": "100-500 years",
-    "recycling_method": "Clean the plastic, separate by type (PET, HDPE, etc.), shred it, melt and remold into pellets for new products.",
-    "tutorial_steps": [
-      "Rinse plastic to remove food residue",
-      "Remove labels and caps if possible",
-      "Sort by plastic type symbol",
-      "Send to recycling center or plastic shredder",
-      "Melt and remold into pellets for reuse"
-    ]
+    "type": "plastic",
+    "recycle": "Put in recycling bin. Avoid burning.",
+    "tips": "Reuse bottles if possible."
   },
   {
-    "category": "Paper",
-    "examples": ["newspaper", "cardboard", "notebook paper", "paper packaging"],
-    "decomposition_time": "2-6 weeks",
-    "recycling_method": "Paper is soaked, pulped, filtered, pressed and dried into new sheets.",
-    "tutorial_steps": [
-      "Remove plastic or metal parts",
-      "Tear paper into small pieces",
-      "Soak in water to form pulp",
-      "Filter impurities",
-      "Press and dry to create recycled sheets"
-    ]
+    "type": "paper",
+    "recycle": "Recycle in dry waste.",
+    "tips": "Avoid wetting paper."
   },
   {
-    "category": "Glass",
-    "examples": ["glass bottle", "jar", "broken glass"],
-    "decomposition_time": "1 million years",
-    "recycling_method": "Glass is crushed into cullet and melted to form new glass products.",
-    "tutorial_steps": [
-      "Separate glass by color (clear, green, brown)",
-      "Wash to remove residues",
-      "Crush into small pieces (cullet)",
-      "Melt in furnace",
-      "Mold into new bottles or jars"
-    ]
+    "type": "metal",
+    "recycle": "Send to scrap dealer.",
+    "tips": "Can be reused multiple times."
   },
   {
-    "category": "Metal",
-    "examples": ["aluminum can", "steel can", "tin container"],
-    "decomposition_time": "50-200 years",
-    "recycling_method": "Metals are melted and recast into new metal products.",
-    "tutorial_steps": [
-      "Rinse cans and containers",
-      "Separate aluminum and steel",
-      "Compress or shred",
-      "Melt in furnace",
-      "Recast into sheets or new products"
-    ]
-  },
-  {
-    "category": "Organic Waste",
-    "examples": ["fruit peels", "vegetable scraps", "food leftovers"],
-    "decomposition_time": "1-3 months",
-    "recycling_method": "Composting using microorganisms to produce nutrient-rich soil.",
-    "tutorial_steps": [
-      "Collect organic scraps",
-      "Add to compost bin",
-      "Mix with dry materials like leaves",
-      "Maintain moisture and aeration",
-      "Wait until it decomposes into compost"
-    ]
-  },
-  {
-    "category": "E-Waste",
-    "examples": ["mobile phone", "battery", "computer parts"],
-    "decomposition_time": "1000+ years",
-    "recycling_method": "Specialized recycling centers recover metals and rare materials.",
-    "tutorial_steps": [
-      "Separate batteries from devices",
-      "Take to certified e-waste recycling center",
-      "Disassemble components",
-      "Recover precious metals and reusable parts"
-    ]
-  },
-  {
-    "category": "Textiles",
-    "examples": ["old clothes", "fabric scraps", "cotton materials"],
-    "decomposition_time": "6 months - several years",
-    "recycling_method": "Textiles can be reused, donated, or shredded to create insulation or new fabric.",
-    "tutorial_steps": [
-      "Sort usable clothes for donation",
-      "Separate synthetic and natural fabrics",
-      "Shred worn-out textiles",
-      "Reuse fibers for insulation or recycled fabric"
-    ]
-  },
-  {
-    "category": "Hazardous Waste",
-    "examples": ["paint", "chemicals", "pesticides", "cleaning products"],
-    "decomposition_time": "Varies, often extremely long",
-    "recycling_method": "Handled by hazardous waste facilities to neutralize or safely dispose.",
-    "tutorial_steps": [
-      "Do not mix with regular trash",
-      "Store in sealed containers",
-      "Label hazardous material",
-      "Transport to hazardous waste facility",
-      "Follow proper neutralization or disposal procedures"
-    ]
+    "type": "organic",
+    "recycle": "Use for composting.",
+    "tips": "Great for gardening."
   }
 ]
